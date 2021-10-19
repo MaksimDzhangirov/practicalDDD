@@ -1,4 +1,4 @@
-package main
+package value_objects
 
 import (
 	"errors"
@@ -178,6 +178,17 @@ func (c Color) WithOnlyGreen() Color {
 		Green: c.Green,
 		Blue:  0,
 	}
+}
+
+func (m Money) Add(other Money) (Money, error) {
+	if !m.Currency.EqualTo(other.Currency) {
+		return Money{}, errors.New("currencies must be identical")
+	}
+
+	return Money{
+		Value:    m.Value + other.Value,
+		Currency: m.Currency,
+	}, nil
 }
 
 func (m Money) Deduct(other Money) (Money, error) {
