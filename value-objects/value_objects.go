@@ -180,6 +180,15 @@ func (c Color) WithOnlyGreen() Color {
 	}
 }
 
+func NewMoney(amount int, currencyID uuid.UUID) Money {
+	return Money{
+		Value:    float64(amount),
+		Currency: Currency{
+			ID: currencyID,
+		},
+	}
+}
+
 func (m Money) Add(other Money) (Money, error) {
 	if !m.Currency.EqualTo(other.Currency) {
 		return Money{}, errors.New("currencies must be identical")

@@ -5,6 +5,7 @@ import domain "github.com/MaksimDzhangirov/PracticalDDD/domain/bankAccount/entit
 // DTO внутри инфраструктурного уровня
 type BankAccountGorm struct {
 	ID         int          `gorm:"primaryKey";column:id`
+	UUID       string       `gorm:"column:uuid"`
 	IsLocked   bool         `gorm:"column:is_locked"`
 	Amount     int          `gorm:"column:amount"`
 	CurrencyID uint         `gorm:"column:currency_id"`
@@ -14,11 +15,10 @@ type BankAccountGorm struct {
 }
 
 type CurrencyGorm struct {
-
+	UUID string `gorm:"column:uuid"`
 }
 
 type PersonGorm struct {
-
 }
 
 func (cg *CurrencyGorm) ToEntity() domain.Currency {
