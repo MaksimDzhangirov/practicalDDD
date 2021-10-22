@@ -1,11 +1,9 @@
 package model
 
-import "github.com/google/uuid"
+import "time"
 
 type Company struct {
-	id uuid.UUID // локальный идентификатор
-	//
-	// какие-то поля
-	//
-	isLiquid bool
+	Name               string
+	RegistrationNumber string
+	RegistrationDate   time.Time
 }

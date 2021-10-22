@@ -1,14 +1,14 @@
 package model
 
 import (
-	"github.com/google/uuid"
 	"time"
 )
 
+type Birthday time.Time
+
 type Person struct {
-	id uuid.UUID // локальный идентификатор
-	//
-	// какие-то поля
-	//
-	birthday time.Time
+	SSN       string
+	FirstName string
+	LastName  string
+	Birthday  Birthday
 }
