@@ -22,9 +22,9 @@
 > 1. [DDD на практике в Golang: Объект-значение](https://levelup.gitconnected.com/practical-ddd-in-golang-value-object-4fc97bcad70)
 > 2. [DDD на практике в Golang: Сущности](https://levelup.gitconnected.com/practical-ddd-in-golang-entity-40d32bdad2a3)
 > 3. [DDD на практике в Golang: Сервисы предметной области](https://levelup.gitconnected.com/practical-ddd-in-golang-domain-service-4418a1650274)
-> 4. [Practical DDD in Golang: Domain Event](https://levelup.gitconnected.com/practical-ddd-in-golang-domain-event-de02ad492989)
-> 5. [Practical DDD in Golang: Module](https://levelup.gitconnected.com/practical-ddd-in-golang-module-51edf4c319ec)
-> 6. [Practical DDD in Golang: Aggregate](https://levelup.gitconnected.com/practical-ddd-in-golang-aggregate-de13f561e629)
+> 4. [DDD на практике в Golang: Событие предметной области](https://levelup.gitconnected.com/practical-ddd-in-golang-domain-event-de02ad492989)
+> 5. [DDD на практике в Golang: Модуль](https://levelup.gitconnected.com/practical-ddd-in-golang-module-51edf4c319ec)
+> 6. [DDD на практике в Golang: Агрегат](https://levelup.gitconnected.com/practical-ddd-in-golang-aggregate-de13f561e629)
 
 ## Сложная логика при создании
 
@@ -278,9 +278,9 @@ func (f *CryptoInvestmentDBFactory) ToEntity(dto CryptoInvestmentGorm) (model.Cr
 > 1. [DDD на практике в Golang: Объект-значение](https://levelup.gitconnected.com/practical-ddd-in-golang-value-object-4fc97bcad70)
 > 2. [DDD на практике в Golang: Сущности](https://levelup.gitconnected.com/practical-ddd-in-golang-entity-40d32bdad2a3)
 > 3. [DDD на практике в Golang: Сервисы предметной области](https://levelup.gitconnected.com/practical-ddd-in-golang-domain-service-4418a1650274)
-> 4. [Practical DDD in Golang: Domain Event](https://levelup.gitconnected.com/practical-ddd-in-golang-domain-event-de02ad492989)
-> 5. [Practical DDD in Golang: Module](https://levelup.gitconnected.com/practical-ddd-in-golang-module-51edf4c319ec)
-> 6. [Practical DDD in Golang: Aggregate](https://levelup.gitconnected.com/practical-ddd-in-golang-aggregate-de13f561e629)
+> 4. [DDD на практике в Golang: Событие предметной области](https://levelup.gitconnected.com/practical-ddd-in-golang-domain-event-de02ad492989)
+> 5. [DDD на практике в Golang: Модуль](https://levelup.gitconnected.com/practical-ddd-in-golang-module-51edf4c319ec)
+> 6. [DDD на практике в Golang: Агрегат](https://levelup.gitconnected.com/practical-ddd-in-golang-aggregate-de13f561e629)
 
 ## Полезные ссылки на источники:
 

@@ -20,10 +20,10 @@ API, какой-то системе кеширования, чему угодн�
 > 1. [DDD на практике в Golang: Объект-значение](https://levelup.gitconnected.com/practical-ddd-in-golang-value-object-4fc97bcad70)
 > 2. [DDD на практике в Golang: Сущности](https://levelup.gitconnected.com/practical-ddd-in-golang-entity-40d32bdad2a3)
 > 3. [DDD на практике в Golang: Сервисы предметной области](https://levelup.gitconnected.com/practical-ddd-in-golang-domain-service-4418a1650274)
-> 4. [Practical DDD in Golang: Domain Event](https://levelup.gitconnected.com/practical-ddd-in-golang-domain-event-de02ad492989)
-> 5. [Practical DDD in Golang: Module](https://levelup.gitconnected.com/practical-ddd-in-golang-module-51edf4c319ec)
-> 6. [Practical DDD in Golang: Aggregate](https://levelup.gitconnected.com/practical-ddd-in-golang-aggregate-de13f561e629)
-> 7. [Practical DDD in Golang: Factory](https://levelup.gitconnected.com/practical-ddd-in-golang-factory-5ba135df6362)
+> 4. [DDD на практике в Golang: Событие предметной области](https://levelup.gitconnected.com/practical-ddd-in-golang-domain-event-de02ad492989)
+> 5. [DDD на практике в Golang: Модуль](https://levelup.gitconnected.com/practical-ddd-in-golang-module-51edf4c319ec)
+> 6. [DDD на практике в Golang: Агрегат](https://levelup.gitconnected.com/practical-ddd-in-golang-aggregate-de13f561e629)
+> 7. [DDD на практике в Golang: Фабрика](https://levelup.gitconnected.com/practical-ddd-in-golang-factory-5ba135df6362)
 
 ## Предохранительный уровень
 
@@ -550,10 +550,10 @@ func (r *CustomerRedisAPIRepository) GetCustomer(ctx context.Context, ID uuid.UU
 > 1. [DDD на практике в Golang: Объект-значение](https://levelup.gitconnected.com/practical-ddd-in-golang-value-object-4fc97bcad70)
 > 2. [DDD на практике в Golang: Сущности](https://levelup.gitconnected.com/practical-ddd-in-golang-entity-40d32bdad2a3)
 > 3. [DDD на практике в Golang: Сервисы предметной области](https://levelup.gitconnected.com/practical-ddd-in-golang-domain-service-4418a1650274)
-> 4. [Practical DDD in Golang: Domain Event](https://levelup.gitconnected.com/practical-ddd-in-golang-domain-event-de02ad492989)
-> 5. [Practical DDD in Golang: Module](https://levelup.gitconnected.com/practical-ddd-in-golang-module-51edf4c319ec)
-> 6. [Practical DDD in Golang: Aggregate](https://levelup.gitconnected.com/practical-ddd-in-golang-aggregate-de13f561e629)
-> 7. [Practical DDD in Golang: Factory](https://levelup.gitconnected.com/practical-ddd-in-golang-factory-5ba135df6362)
+> 4. [DDD на практике в Golang: Событие предметной области](https://levelup.gitconnected.com/practical-ddd-in-golang-domain-event-de02ad492989)
+> 5. [DDD на практике в Golang: Модуль](https://levelup.gitconnected.com/practical-ddd-in-golang-module-51edf4c319ec)
+> 6. [DDD на практике в Golang: Агрегат](https://levelup.gitconnected.com/practical-ddd-in-golang-aggregate-de13f561e629)
+> 7. [DDD на практике в Golang: Фабрика](https://levelup.gitconnected.com/practical-ddd-in-golang-factory-5ba135df6362)
 
 ## Полезные ссылки на источники:
 

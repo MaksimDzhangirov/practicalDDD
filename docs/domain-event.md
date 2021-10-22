@@ -1,4 +1,4 @@
-# DDD на практике в Golang: событие предметной области
+# DDD на практике в Golang: Событие предметной области
 
 ![intro](images/domain-event/intro.jpeg)
 *Фото [Anthony DELANOIX](https://unsplash.com/@anthonydelanoix) из [Unsplash](https://unsplash.com/)*
