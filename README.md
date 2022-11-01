@@ -11,6 +11,7 @@ Russian translation of article series: "Practical DDD in Golang".
 7. [Practical DDD in Golang: Factory](https://levelup.gitconnected.com/practical-ddd-in-golang-factory-5ba135df6362)
 8. [Practical DDD in Golang: Repository](https://levelup.gitconnected.com/practical-ddd-in-golang-repository-d308c9d79ba7)
 9. [Practical DDD in Golang: Specification](https://levelup.gitconnected.com/practical-ddd-in-golang-specification-6523d14438e6)
+10. [The Power of Generics in Go: The Repository pattern for GORM](https://hindenbug.io/the-power-of-generics-in-go-the-repository-pattern-for-gorm-7f8891df0934)
 
 Перевод статей по практическому применению предметно-ориентированного проектирования (DDD) в Golang
 
@@ -23,3 +24,4 @@ Russian translation of article series: "Practical DDD in Golang".
 7. [DDD на практике в Golang: Фабрика](docs/factory.md)
 8. [DDD на практике в Golang: Репозиторий](docs/repository.md)
 9. [DDD на практике в Golang: Спецификация](docs/specification.md)
+10. [Преимущества дженериков (Generics) в Go: шаблон Репозиторий для GORM](docs/repository-pattern-for-gorm.md)
